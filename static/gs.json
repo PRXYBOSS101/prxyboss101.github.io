@@ -9,6 +9,15 @@
     "featured": true
   },
   {
+    "img": "./img/gs/mc.png",
+    "location": "./load.html#a3J1bmtlci5pbw%3D%3D",
+    "title": "Minecraft",
+    "author": "Mojang Studios",
+    "description": "Minecraft is a sandbox game.",
+    "category": "multi",
+    "featured": true
+  },
+  {
     "img": "./img/gs/moo.png",
     "location": "./load.html#aHR0cHM6Ly9tb29tb28uaW8%3D",
     "title": "Moomoo.io",
