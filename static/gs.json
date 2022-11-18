@@ -15,7 +15,7 @@
     "author": "Mojang Studios",
     "description": "Minecraft is a sandbox game.",
     "category": "multi",
-    "featured": true
+    "featured": false
   },
   {
     "img": "./img/gs/moo.png",
