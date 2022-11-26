@@ -19,7 +19,7 @@
   },
   {
   "img": "./img/gs/run3.png",
-   "location": "./source/run3/",
+   "location": "./source/run3",
     "title": "Run 3",
     "author": "???",
     "description": "Run 3",
@@ -28,7 +28,7 @@
   },
   {
   "img": "./img/gs/yohoho.png",
-  "location": "./source/yohoho/",
+  "location": "./source/yohoho",
    "title": "YoHoHo.io",
    "author": "???",
    "description": "YoHoHo.io",
