@@ -15,8 +15,17 @@
     "author": "Mojang Studios",
     "description": "Minecraft is a sandbox game.",
     "category": "multi",
-    "featured": false
+    "featured": false  
   },
+  {
+  "img": "./img/gs/run3.png",
+   "location": "./source/run3/",
+    "title": "Run 3",
+    "author": "???",
+    "description": "Run 3",
+    "category": "indie",
+    "featured": false 
+  },  
   {
     "img": "./img/gs/moo.png",
     "location": "./load.html#aHR0cHM6Ly9tb29tb28uaW8%3D",
