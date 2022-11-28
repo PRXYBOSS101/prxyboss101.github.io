@@ -18,15 +18,6 @@
     "featured": false  
   },
   {
-  "img": "./img/gs/run3.png",
-   "location": "./source/run3",
-    "title": "Run 3",
-    "author": "???",
-    "description": "Run 3",
-    "category": "indie",
-    "featured": false 
-  },
-  {
   "img": "./img/gs/yohoho.png",
   "location": "./source/yohoho",
    "title": "YoHoHo.io",
