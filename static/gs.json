@@ -18,15 +18,6 @@
     "featured": false  
   },
   {
-  "img": "./img/gs/yohoho.png",
-  "location": "./source/yohoho",
-   "title": "YoHoHo.io",
-   "author": "???",
-   "description": "YoHoHo.io",
-   "category": "multi",
-   "featured": false 
-  }, 
-  {
     "img": "./img/gs/moo.png",
     "location": "./load.html#aHR0cHM6Ly9tb29tb28uaW8%3D",
     "title": "Moomoo.io",
