@@ -13,7 +13,6 @@
     "location": "./source/minecraft",
     "title": "Minecraft",
     "author": "Mojang Studios + lax1dude",
-    "description": "Minecraft is a sandbox game.",
     "category": "multi",
     "featured": false  
   },
