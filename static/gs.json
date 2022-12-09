@@ -85,13 +85,6 @@
     "author": "Orteil"
   },
   {
-    "img": "./img/gs/cubefield.jpg",
-    "location": "./source/cubefield/",
-    "title": "Cubefield",
-    "description": "Cubefield is a fast-paced endless running game that tests your ability to dodge obstacles at high speed.",
-    "author": "Nils Asejevs"
-  },
-  {
     "img": "./img/gs/doodle.jpg",
     "location": "./source/doodle-jump/",
     "title": "Doodle Jump",
@@ -109,17 +102,6 @@
     "location": "./source/flappybird/",
     "category": "web",
     "title": "Flappy Bird"
-  },
-  {
-    "img": "./img/gs/fnf.jpg",
-    "location": "./source/fnf/",
-    "category": "web",
-    "title": "Friday Night Funkin"
-  },
-  {
-    "img": "./img/gs/friendlyfire.jpg",
-    "location": "./source/friendlyfire/",
-    "title": "Friendly Fire"
   },
   {
     "img": "./img/gs/geometry.jpg",
