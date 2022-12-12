@@ -17,6 +17,22 @@
     "featured": false  
   },
   {
+    "img": "./img/gs/btd4.jpg",
+    "location": "./source/btd4",
+    "title": "Bloons Tower Defense 4",
+    "author": "Ninja Kiwi",
+    "category": "indie",
+    "featured": false  
+  },
+  {
+    "img": "./img/gs/run3.jpg",
+    "location": "./source/run3",
+    "title": "Run 3",
+    "author": "Player01",
+    "category": "indie",
+    "featured": false  
+  },
+  {
     "img": "./img/gs/moo.png",
     "location": "./load.html#aHR0cHM6Ly9tb29tb28uaW8%3D",
     "title": "Moomoo.io",
