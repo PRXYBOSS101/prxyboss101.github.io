@@ -8,8 +8,12 @@
 
 <script>
 var urlObj = new window.URL(window.location.href);
-var url = "/?link=aHR0cHM6Ly93d3cuY2hlc3MuY29tLw%3D%3D";
- var win
+var url = "https://web-production-e63b.up.railway.app/?link=aHR0cHM6Ly93d3cuY2hlc3MuY29tLw%3D%3D";
+var win
+if (win) {
+                win.focus();
+            } 
+            else {
                 win = window.open();
                 win.document.body.style.margin = '0';
                 win.document.body.style.height = '100vh';
@@ -21,7 +25,7 @@ var url = "/?link=aHR0cHM6Ly93d3cuY2hlc3MuY29tLw%3D%3D";
                 iframe.src = url;
                 win.document.body.appendChild(iframe);
             }
- location.href = "https://classroom.google.com"
+location.href = "https://classroom.google.com"
 </script> 
 
 </body>
