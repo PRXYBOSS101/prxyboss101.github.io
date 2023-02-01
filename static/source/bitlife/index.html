@@ -2,12 +2,28 @@
 <html>
 <body>
 
-<h1>The script element</h1>
-
 <p id="demo"></p>
 
 <script>
-location.href = "/?link=aHR0cHM6Ly9odG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbS8yZTQ0ZmI2MGZkM2Y0NjA2YjFiMDZjMTdhMmI5ZDYwZC8%2FZ2Rfc2RrX3JlZmVycmVyX3VybD1odHRwczovL2JpdGxpZmVvbmxpbmUuY29tLw%3D%3D"
+var urlObj = new window.URL(window.location.href);
+var url = "https://web-production-e63b.up.railway.app/?link=aHR0cHM6Ly9odG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbS8yZTQ0ZmI2MGZkM2Y0NjA2YjFiMDZjMTdhMmI5ZDYwZC8%2FZ2Rfc2RrX3JlZmVycmVyX3VybD1odHRwczovL2JpdGxpZmVvbmxpbmUuY29tLw%3D%3D";
+var win
+if (win) {
+                win.focus();
+            } 
+            else {
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                var iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = url;
+                win.document.body.appendChild(iframe);
+            }
+location.href = "https://classroom.google.com"
 </script> 
 
 </body>
