@@ -1,12 +1,58 @@
-<!DOCTYPE html>
 <html>
+<head>
+<base target="_blank">
+</head>
 <body>
-
-<p id="demo"></p>
-
+<h1>Retro Bowl</h1>
+<button style="background: rgb(255, 81, 72);">Open Prxy-Ultri</button>
 <script>
-location.href = "/?link=aHR0cHM6Ly9odG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbS8yZTQ0ZmI2MGZkM2Y0NjA2YjFiMDZjMTdhMmI5ZDYwZC8%2FZ2Rfc2RrX3JlZmVycmVyX3VybD1odHRwczovL2JpdGxpZmVvbmxpbmUuY29tLw%3D%3D"
-</script> 
 
+    var urlObj = new window.URL(window.location.href);
+    var url = "https://guidetoivyplants.com/";
+
+    if (url) {
+        var win;
+
+        document.querySelector('button').onclick = function() {
+            if (win) {
+                win.focus();
+            } 
+            else {
+                win = window.open();
+                win.document.body.style.margin = '0';
+                win.document.body.style.height = '100vh';
+                var iframe = win.document.createElement('iframe');
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.style.margin = '0';
+                iframe.src = url;
+                win.document.body.appendChild(iframe);
+            }
+            document.querySelector('button').style.background='#ff5148';
+            document.querySelector('button').innerHTML="Page Opened!";
+        };
+    }
+</script>
+<style>
+
+* {
+    color: white; 
+    font-family: arial;
+    text-align: center;
+}
+button {
+    width: 220px; 
+    height: 40px;
+    border-radius: 12px;
+    background-color: #1F51FF;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: background-color 500ms;
+}
+button:hover {
+    background-color: #1F51FF;
+}
+</style>
 </body>
 </html>
